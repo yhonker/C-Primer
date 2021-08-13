@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/honker/CLionProjects/CppTrain/Sales_data.h
+bits/stdc++.h
+-
+
+/home/honker/CLionProjects/CppTrain/Screen.cpp
+Screen.h
+/home/honker/CLionProjects/CppTrain/Screen.h
+
+/home/honker/CLionProjects/CppTrain/Screen.h
+bits/stdc++.h
+-
+Window_mgr.h
+/home/honker/CLionProjects/CppTrain/Window_mgr.h
+
+/home/honker/CLionProjects/CppTrain/Window_mgr.cpp
+Window_mgr.h
+/home/honker/CLionProjects/CppTrain/Window_mgr.h
+
+/home/honker/CLionProjects/CppTrain/Window_mgr.h
+bits/stdc++.h
+-
+Screen.h
+/home/honker/CLionProjects/CppTrain/Screen.h
+
+/home/honker/CLionProjects/CppTrain/main.cpp
+iostream
+-
+Sales_data.h
+/home/honker/CLionProjects/CppTrain/Sales_data.h
+Screen.h
+/home/honker/CLionProjects/CppTrain/Screen.h
+Window_mgr.h
+/home/honker/CLionProjects/CppTrain/Window_mgr.h
+
