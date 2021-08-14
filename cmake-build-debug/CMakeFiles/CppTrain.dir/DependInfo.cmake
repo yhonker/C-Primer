@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/honker/CLionProjects/CppTrain/Account.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/Account.cpp.o"
   "/home/honker/CLionProjects/CppTrain/Other.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/Other.cpp.o"
   "/home/honker/CLionProjects/CppTrain/Sales_data.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/Sales_data.cpp.o"
   "/home/honker/CLionProjects/CppTrain/Screen.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/Screen.cpp.o"

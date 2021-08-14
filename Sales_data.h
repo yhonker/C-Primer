@@ -15,10 +15,10 @@ private:
     double avg_price() const;
 public:
     Sales_data() = default;
-    Sales_data(const string& s):bookNo(s){}
+    explicit Sales_data(const string& s):bookNo(s){}//explicit禁止隐式转换
     Sales_data(const string& s, unsigned n, double p):
         bookNo(s), units_sold(n), revenue(p*n){}
-    Sales_data(istream& is);
+    explicit Sales_data(istream& is);
 
     // const修饰this
     string isbn(/*隐式传入(对象地址)this*/) const{ return bookNo;}//this->bookNo

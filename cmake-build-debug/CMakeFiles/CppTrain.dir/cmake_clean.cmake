@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CppTrain.dir/Account.cpp.o"
   "CMakeFiles/CppTrain.dir/Other.cpp.o"
   "CMakeFiles/CppTrain.dir/Sales_data.cpp.o"
   "CMakeFiles/CppTrain.dir/Screen.cpp.o"

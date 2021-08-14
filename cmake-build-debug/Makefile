@@ -129,6 +129,30 @@ CppTrain/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/build
 .PHONY : CppTrain/fast
 
+Account.o: Account.cpp.o
+.PHONY : Account.o
+
+# target to build an object file
+Account.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Account.cpp.o
+.PHONY : Account.cpp.o
+
+Account.i: Account.cpp.i
+.PHONY : Account.i
+
+# target to preprocess a source file
+Account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Account.cpp.i
+.PHONY : Account.cpp.i
+
+Account.s: Account.cpp.s
+.PHONY : Account.s
+
+# target to generate assembly for a file
+Account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Account.cpp.s
+.PHONY : Account.cpp.s
+
 Other.o: Other.cpp.o
 .PHONY : Other.o
 
@@ -258,6 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CppTrain"
+	@echo "... Account.o"
+	@echo "... Account.i"
+	@echo "... Account.s"
 	@echo "... Other.o"
 	@echo "... Other.i"
 	@echo "... Other.s"
