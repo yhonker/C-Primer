@@ -4,7 +4,8 @@
 
 #ifndef CPPTRAIN_OTHER_H
 #define CPPTRAIN_OTHER_H
-
+#include <bits/stdc++.h>
+using namespace std;
 
 class Other {
 
@@ -44,4 +45,22 @@ public:
     X(int val):j(val),i(val){}
 };
 
+//默认构造函数的作用
+class Nodefault{
+public:
+    Nodefault(const string &s);
+};
+
+class A{
+public:
+    Nodefault my_mem;
+};
+//错误：不能为A合成构造函数
+//A a;
+
+struct B{
+    //错误：b_memeber没有初始值
+    //B(){}
+    Nodefault b_member;
+};
 #endif //CPPTRAIN_OTHER_H
