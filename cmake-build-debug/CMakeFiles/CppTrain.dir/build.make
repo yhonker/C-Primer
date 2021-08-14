@@ -66,102 +66,102 @@ include CMakeFiles/CppTrain.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CppTrain.dir/flags.make
 
-CMakeFiles/CppTrain.dir/main.cpp.o: CMakeFiles/CppTrain.dir/flags.make
-CMakeFiles/CppTrain.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppTrain.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTrain.dir/main.cpp.o -c /home/honker/CLionProjects/CppTrain/main.cpp
+CMakeFiles/CppTrain.dir/类/main.cpp.o: CMakeFiles/CppTrain.dir/flags.make
+CMakeFiles/CppTrain.dir/类/main.cpp.o: ../类/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppTrain.dir/类/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTrain.dir/类/main.cpp.o -c /home/honker/CLionProjects/CppTrain/类/main.cpp
 
-CMakeFiles/CppTrain.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTrain.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/honker/CLionProjects/CppTrain/main.cpp > CMakeFiles/CppTrain.dir/main.cpp.i
+CMakeFiles/CppTrain.dir/类/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTrain.dir/类/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/honker/CLionProjects/CppTrain/类/main.cpp > CMakeFiles/CppTrain.dir/类/main.cpp.i
 
-CMakeFiles/CppTrain.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTrain.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/honker/CLionProjects/CppTrain/main.cpp -o CMakeFiles/CppTrain.dir/main.cpp.s
+CMakeFiles/CppTrain.dir/类/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTrain.dir/类/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/honker/CLionProjects/CppTrain/类/main.cpp -o CMakeFiles/CppTrain.dir/类/main.cpp.s
 
-CMakeFiles/CppTrain.dir/Sales_data.cpp.o: CMakeFiles/CppTrain.dir/flags.make
-CMakeFiles/CppTrain.dir/Sales_data.cpp.o: ../Sales_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppTrain.dir/Sales_data.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTrain.dir/Sales_data.cpp.o -c /home/honker/CLionProjects/CppTrain/Sales_data.cpp
+CMakeFiles/CppTrain.dir/类/Sales_data.cpp.o: CMakeFiles/CppTrain.dir/flags.make
+CMakeFiles/CppTrain.dir/类/Sales_data.cpp.o: ../类/Sales_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppTrain.dir/类/Sales_data.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTrain.dir/类/Sales_data.cpp.o -c /home/honker/CLionProjects/CppTrain/类/Sales_data.cpp
 
-CMakeFiles/CppTrain.dir/Sales_data.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTrain.dir/Sales_data.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/honker/CLionProjects/CppTrain/Sales_data.cpp > CMakeFiles/CppTrain.dir/Sales_data.cpp.i
+CMakeFiles/CppTrain.dir/类/Sales_data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTrain.dir/类/Sales_data.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/honker/CLionProjects/CppTrain/类/Sales_data.cpp > CMakeFiles/CppTrain.dir/类/Sales_data.cpp.i
 
-CMakeFiles/CppTrain.dir/Sales_data.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTrain.dir/Sales_data.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/honker/CLionProjects/CppTrain/Sales_data.cpp -o CMakeFiles/CppTrain.dir/Sales_data.cpp.s
+CMakeFiles/CppTrain.dir/类/Sales_data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTrain.dir/类/Sales_data.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/honker/CLionProjects/CppTrain/类/Sales_data.cpp -o CMakeFiles/CppTrain.dir/类/Sales_data.cpp.s
 
-CMakeFiles/CppTrain.dir/Screen.cpp.o: CMakeFiles/CppTrain.dir/flags.make
-CMakeFiles/CppTrain.dir/Screen.cpp.o: ../Screen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppTrain.dir/Screen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTrain.dir/Screen.cpp.o -c /home/honker/CLionProjects/CppTrain/Screen.cpp
+CMakeFiles/CppTrain.dir/类/Screen.cpp.o: CMakeFiles/CppTrain.dir/flags.make
+CMakeFiles/CppTrain.dir/类/Screen.cpp.o: ../类/Screen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppTrain.dir/类/Screen.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTrain.dir/类/Screen.cpp.o -c /home/honker/CLionProjects/CppTrain/类/Screen.cpp
 
-CMakeFiles/CppTrain.dir/Screen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTrain.dir/Screen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/honker/CLionProjects/CppTrain/Screen.cpp > CMakeFiles/CppTrain.dir/Screen.cpp.i
+CMakeFiles/CppTrain.dir/类/Screen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTrain.dir/类/Screen.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/honker/CLionProjects/CppTrain/类/Screen.cpp > CMakeFiles/CppTrain.dir/类/Screen.cpp.i
 
-CMakeFiles/CppTrain.dir/Screen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTrain.dir/Screen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/honker/CLionProjects/CppTrain/Screen.cpp -o CMakeFiles/CppTrain.dir/Screen.cpp.s
+CMakeFiles/CppTrain.dir/类/Screen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTrain.dir/类/Screen.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/honker/CLionProjects/CppTrain/类/Screen.cpp -o CMakeFiles/CppTrain.dir/类/Screen.cpp.s
 
-CMakeFiles/CppTrain.dir/Window_mgr.cpp.o: CMakeFiles/CppTrain.dir/flags.make
-CMakeFiles/CppTrain.dir/Window_mgr.cpp.o: ../Window_mgr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CppTrain.dir/Window_mgr.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTrain.dir/Window_mgr.cpp.o -c /home/honker/CLionProjects/CppTrain/Window_mgr.cpp
+CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.o: CMakeFiles/CppTrain.dir/flags.make
+CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.o: ../类/Window_mgr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.o -c /home/honker/CLionProjects/CppTrain/类/Window_mgr.cpp
 
-CMakeFiles/CppTrain.dir/Window_mgr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTrain.dir/Window_mgr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/honker/CLionProjects/CppTrain/Window_mgr.cpp > CMakeFiles/CppTrain.dir/Window_mgr.cpp.i
+CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/honker/CLionProjects/CppTrain/类/Window_mgr.cpp > CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.i
 
-CMakeFiles/CppTrain.dir/Window_mgr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTrain.dir/Window_mgr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/honker/CLionProjects/CppTrain/Window_mgr.cpp -o CMakeFiles/CppTrain.dir/Window_mgr.cpp.s
+CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/honker/CLionProjects/CppTrain/类/Window_mgr.cpp -o CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.s
 
-CMakeFiles/CppTrain.dir/Other.cpp.o: CMakeFiles/CppTrain.dir/flags.make
-CMakeFiles/CppTrain.dir/Other.cpp.o: ../Other.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CppTrain.dir/Other.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTrain.dir/Other.cpp.o -c /home/honker/CLionProjects/CppTrain/Other.cpp
+CMakeFiles/CppTrain.dir/类/Other.cpp.o: CMakeFiles/CppTrain.dir/flags.make
+CMakeFiles/CppTrain.dir/类/Other.cpp.o: ../类/Other.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CppTrain.dir/类/Other.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTrain.dir/类/Other.cpp.o -c /home/honker/CLionProjects/CppTrain/类/Other.cpp
 
-CMakeFiles/CppTrain.dir/Other.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTrain.dir/Other.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/honker/CLionProjects/CppTrain/Other.cpp > CMakeFiles/CppTrain.dir/Other.cpp.i
+CMakeFiles/CppTrain.dir/类/Other.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTrain.dir/类/Other.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/honker/CLionProjects/CppTrain/类/Other.cpp > CMakeFiles/CppTrain.dir/类/Other.cpp.i
 
-CMakeFiles/CppTrain.dir/Other.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTrain.dir/Other.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/honker/CLionProjects/CppTrain/Other.cpp -o CMakeFiles/CppTrain.dir/Other.cpp.s
+CMakeFiles/CppTrain.dir/类/Other.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTrain.dir/类/Other.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/honker/CLionProjects/CppTrain/类/Other.cpp -o CMakeFiles/CppTrain.dir/类/Other.cpp.s
 
-CMakeFiles/CppTrain.dir/Account.cpp.o: CMakeFiles/CppTrain.dir/flags.make
-CMakeFiles/CppTrain.dir/Account.cpp.o: ../Account.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CppTrain.dir/Account.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTrain.dir/Account.cpp.o -c /home/honker/CLionProjects/CppTrain/Account.cpp
+CMakeFiles/CppTrain.dir/类/Account.cpp.o: CMakeFiles/CppTrain.dir/flags.make
+CMakeFiles/CppTrain.dir/类/Account.cpp.o: ../类/Account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CppTrain.dir/类/Account.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTrain.dir/类/Account.cpp.o -c /home/honker/CLionProjects/CppTrain/类/Account.cpp
 
-CMakeFiles/CppTrain.dir/Account.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTrain.dir/Account.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/honker/CLionProjects/CppTrain/Account.cpp > CMakeFiles/CppTrain.dir/Account.cpp.i
+CMakeFiles/CppTrain.dir/类/Account.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTrain.dir/类/Account.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/honker/CLionProjects/CppTrain/类/Account.cpp > CMakeFiles/CppTrain.dir/类/Account.cpp.i
 
-CMakeFiles/CppTrain.dir/Account.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTrain.dir/Account.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/honker/CLionProjects/CppTrain/Account.cpp -o CMakeFiles/CppTrain.dir/Account.cpp.s
+CMakeFiles/CppTrain.dir/类/Account.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTrain.dir/类/Account.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/honker/CLionProjects/CppTrain/类/Account.cpp -o CMakeFiles/CppTrain.dir/类/Account.cpp.s
 
 # Object files for target CppTrain
 CppTrain_OBJECTS = \
-"CMakeFiles/CppTrain.dir/main.cpp.o" \
-"CMakeFiles/CppTrain.dir/Sales_data.cpp.o" \
-"CMakeFiles/CppTrain.dir/Screen.cpp.o" \
-"CMakeFiles/CppTrain.dir/Window_mgr.cpp.o" \
-"CMakeFiles/CppTrain.dir/Other.cpp.o" \
-"CMakeFiles/CppTrain.dir/Account.cpp.o"
+"CMakeFiles/CppTrain.dir/类/main.cpp.o" \
+"CMakeFiles/CppTrain.dir/类/Sales_data.cpp.o" \
+"CMakeFiles/CppTrain.dir/类/Screen.cpp.o" \
+"CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.o" \
+"CMakeFiles/CppTrain.dir/类/Other.cpp.o" \
+"CMakeFiles/CppTrain.dir/类/Account.cpp.o"
 
 # External object files for target CppTrain
 CppTrain_EXTERNAL_OBJECTS =
 
-CppTrain: CMakeFiles/CppTrain.dir/main.cpp.o
-CppTrain: CMakeFiles/CppTrain.dir/Sales_data.cpp.o
-CppTrain: CMakeFiles/CppTrain.dir/Screen.cpp.o
-CppTrain: CMakeFiles/CppTrain.dir/Window_mgr.cpp.o
-CppTrain: CMakeFiles/CppTrain.dir/Other.cpp.o
-CppTrain: CMakeFiles/CppTrain.dir/Account.cpp.o
+CppTrain: CMakeFiles/CppTrain.dir/类/main.cpp.o
+CppTrain: CMakeFiles/CppTrain.dir/类/Sales_data.cpp.o
+CppTrain: CMakeFiles/CppTrain.dir/类/Screen.cpp.o
+CppTrain: CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.o
+CppTrain: CMakeFiles/CppTrain.dir/类/Other.cpp.o
+CppTrain: CMakeFiles/CppTrain.dir/类/Account.cpp.o
 CppTrain: CMakeFiles/CppTrain.dir/build.make
 CppTrain: CMakeFiles/CppTrain.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CppTrain"

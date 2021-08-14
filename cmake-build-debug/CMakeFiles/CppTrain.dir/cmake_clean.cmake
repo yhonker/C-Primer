@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CppTrain.dir/Account.cpp.o"
-  "CMakeFiles/CppTrain.dir/Other.cpp.o"
-  "CMakeFiles/CppTrain.dir/Sales_data.cpp.o"
-  "CMakeFiles/CppTrain.dir/Screen.cpp.o"
-  "CMakeFiles/CppTrain.dir/Window_mgr.cpp.o"
-  "CMakeFiles/CppTrain.dir/main.cpp.o"
+  "CMakeFiles/CppTrain.dir/类/Account.cpp.o"
+  "CMakeFiles/CppTrain.dir/类/Other.cpp.o"
+  "CMakeFiles/CppTrain.dir/类/Sales_data.cpp.o"
+  "CMakeFiles/CppTrain.dir/类/Screen.cpp.o"
+  "CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.o"
+  "CMakeFiles/CppTrain.dir/类/main.cpp.o"
   "CppTrain"
   "CppTrain.pdb"
 )

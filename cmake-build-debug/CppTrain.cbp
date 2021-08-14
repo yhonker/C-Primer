@@ -84,37 +84,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/Account.cpp">
+		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Account.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/Account.h">
+		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Account.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/Other.cpp">
+		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Other.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/Other.h">
+		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Other.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/Sales_data.cpp">
+		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Sales_data.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/Sales_data.h">
+		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Sales_data.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/Screen.cpp">
+		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Screen.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/Screen.h">
+		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Screen.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/Window_mgr.cpp">
+		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Window_mgr.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/Window_mgr.h">
+		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Window_mgr.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/main.cpp">
+		<Unit filename="/home/honker/CLionProjects/CppTrain/类/main.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
 		<Unit filename="/home/honker/CLionProjects/CppTrain/CMakeLists.txt">

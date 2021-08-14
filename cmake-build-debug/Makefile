@@ -129,149 +129,149 @@ CppTrain/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/build
 .PHONY : CppTrain/fast
 
-Account.o: Account.cpp.o
-.PHONY : Account.o
+类/Account.o: 类/Account.cpp.o
+.PHONY : 类/Account.o
 
 # target to build an object file
-Account.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Account.cpp.o
-.PHONY : Account.cpp.o
+类/Account.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Account.cpp.o
+.PHONY : 类/Account.cpp.o
 
-Account.i: Account.cpp.i
-.PHONY : Account.i
+类/Account.i: 类/Account.cpp.i
+.PHONY : 类/Account.i
 
 # target to preprocess a source file
-Account.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Account.cpp.i
-.PHONY : Account.cpp.i
+类/Account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Account.cpp.i
+.PHONY : 类/Account.cpp.i
 
-Account.s: Account.cpp.s
-.PHONY : Account.s
+类/Account.s: 类/Account.cpp.s
+.PHONY : 类/Account.s
 
 # target to generate assembly for a file
-Account.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Account.cpp.s
-.PHONY : Account.cpp.s
+类/Account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Account.cpp.s
+.PHONY : 类/Account.cpp.s
 
-Other.o: Other.cpp.o
-.PHONY : Other.o
+类/Other.o: 类/Other.cpp.o
+.PHONY : 类/Other.o
 
 # target to build an object file
-Other.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Other.cpp.o
-.PHONY : Other.cpp.o
+类/Other.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Other.cpp.o
+.PHONY : 类/Other.cpp.o
 
-Other.i: Other.cpp.i
-.PHONY : Other.i
+类/Other.i: 类/Other.cpp.i
+.PHONY : 类/Other.i
 
 # target to preprocess a source file
-Other.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Other.cpp.i
-.PHONY : Other.cpp.i
+类/Other.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Other.cpp.i
+.PHONY : 类/Other.cpp.i
 
-Other.s: Other.cpp.s
-.PHONY : Other.s
+类/Other.s: 类/Other.cpp.s
+.PHONY : 类/Other.s
 
 # target to generate assembly for a file
-Other.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Other.cpp.s
-.PHONY : Other.cpp.s
+类/Other.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Other.cpp.s
+.PHONY : 类/Other.cpp.s
 
-Sales_data.o: Sales_data.cpp.o
-.PHONY : Sales_data.o
+类/Sales_data.o: 类/Sales_data.cpp.o
+.PHONY : 类/Sales_data.o
 
 # target to build an object file
-Sales_data.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Sales_data.cpp.o
-.PHONY : Sales_data.cpp.o
+类/Sales_data.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Sales_data.cpp.o
+.PHONY : 类/Sales_data.cpp.o
 
-Sales_data.i: Sales_data.cpp.i
-.PHONY : Sales_data.i
+类/Sales_data.i: 类/Sales_data.cpp.i
+.PHONY : 类/Sales_data.i
 
 # target to preprocess a source file
-Sales_data.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Sales_data.cpp.i
-.PHONY : Sales_data.cpp.i
+类/Sales_data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Sales_data.cpp.i
+.PHONY : 类/Sales_data.cpp.i
 
-Sales_data.s: Sales_data.cpp.s
-.PHONY : Sales_data.s
+类/Sales_data.s: 类/Sales_data.cpp.s
+.PHONY : 类/Sales_data.s
 
 # target to generate assembly for a file
-Sales_data.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Sales_data.cpp.s
-.PHONY : Sales_data.cpp.s
+类/Sales_data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Sales_data.cpp.s
+.PHONY : 类/Sales_data.cpp.s
 
-Screen.o: Screen.cpp.o
-.PHONY : Screen.o
+类/Screen.o: 类/Screen.cpp.o
+.PHONY : 类/Screen.o
 
 # target to build an object file
-Screen.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Screen.cpp.o
-.PHONY : Screen.cpp.o
+类/Screen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Screen.cpp.o
+.PHONY : 类/Screen.cpp.o
 
-Screen.i: Screen.cpp.i
-.PHONY : Screen.i
+类/Screen.i: 类/Screen.cpp.i
+.PHONY : 类/Screen.i
 
 # target to preprocess a source file
-Screen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Screen.cpp.i
-.PHONY : Screen.cpp.i
+类/Screen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Screen.cpp.i
+.PHONY : 类/Screen.cpp.i
 
-Screen.s: Screen.cpp.s
-.PHONY : Screen.s
+类/Screen.s: 类/Screen.cpp.s
+.PHONY : 类/Screen.s
 
 # target to generate assembly for a file
-Screen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Screen.cpp.s
-.PHONY : Screen.cpp.s
+类/Screen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Screen.cpp.s
+.PHONY : 类/Screen.cpp.s
 
-Window_mgr.o: Window_mgr.cpp.o
-.PHONY : Window_mgr.o
+类/Window_mgr.o: 类/Window_mgr.cpp.o
+.PHONY : 类/Window_mgr.o
 
 # target to build an object file
-Window_mgr.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Window_mgr.cpp.o
-.PHONY : Window_mgr.cpp.o
+类/Window_mgr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.o
+.PHONY : 类/Window_mgr.cpp.o
 
-Window_mgr.i: Window_mgr.cpp.i
-.PHONY : Window_mgr.i
+类/Window_mgr.i: 类/Window_mgr.cpp.i
+.PHONY : 类/Window_mgr.i
 
 # target to preprocess a source file
-Window_mgr.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Window_mgr.cpp.i
-.PHONY : Window_mgr.cpp.i
+类/Window_mgr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.i
+.PHONY : 类/Window_mgr.cpp.i
 
-Window_mgr.s: Window_mgr.cpp.s
-.PHONY : Window_mgr.s
+类/Window_mgr.s: 类/Window_mgr.cpp.s
+.PHONY : 类/Window_mgr.s
 
 # target to generate assembly for a file
-Window_mgr.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Window_mgr.cpp.s
-.PHONY : Window_mgr.cpp.s
+类/Window_mgr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.s
+.PHONY : 类/Window_mgr.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+类/main.o: 类/main.cpp.o
+.PHONY : 类/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/main.cpp.o
-.PHONY : main.cpp.o
+类/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/main.cpp.o
+.PHONY : 类/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+类/main.i: 类/main.cpp.i
+.PHONY : 类/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/main.cpp.i
-.PHONY : main.cpp.i
+类/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/main.cpp.i
+.PHONY : 类/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+类/main.s: 类/main.cpp.s
+.PHONY : 类/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/main.cpp.s
-.PHONY : main.cpp.s
+类/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/main.cpp.s
+.PHONY : 类/main.cpp.s
 
 # Help Target
 help:
@@ -282,24 +282,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CppTrain"
-	@echo "... Account.o"
-	@echo "... Account.i"
-	@echo "... Account.s"
-	@echo "... Other.o"
-	@echo "... Other.i"
-	@echo "... Other.s"
-	@echo "... Sales_data.o"
-	@echo "... Sales_data.i"
-	@echo "... Sales_data.s"
-	@echo "... Screen.o"
-	@echo "... Screen.i"
-	@echo "... Screen.s"
-	@echo "... Window_mgr.o"
-	@echo "... Window_mgr.i"
-	@echo "... Window_mgr.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... 类/Account.o"
+	@echo "... 类/Account.i"
+	@echo "... 类/Account.s"
+	@echo "... 类/Other.o"
+	@echo "... 类/Other.i"
+	@echo "... 类/Other.s"
+	@echo "... 类/Sales_data.o"
+	@echo "... 类/Sales_data.i"
+	@echo "... 类/Sales_data.s"
+	@echo "... 类/Screen.o"
+	@echo "... 类/Screen.i"
+	@echo "... 类/Screen.s"
+	@echo "... 类/Window_mgr.o"
+	@echo "... 类/Window_mgr.i"
+	@echo "... 类/Window_mgr.s"
+	@echo "... 类/main.o"
+	@echo "... 类/main.i"
+	@echo "... 类/main.s"
 .PHONY : help
 
 
