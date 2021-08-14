@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/honker/CLionProjects/CppTrain/Other.cpp">
+			<Option target="CppTrain"/>
+		</Unit>
+		<Unit filename="/home/honker/CLionProjects/CppTrain/Other.h">
+			<Option target="CppTrain"/>
+		</Unit>
 		<Unit filename="/home/honker/CLionProjects/CppTrain/Sales_data.cpp">
 			<Option target="CppTrain"/>
 		</Unit>

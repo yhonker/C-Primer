@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/CppTrain.dir/main.cpp.o CMakeFiles/CppTrain.dir/Sales_data.cpp.o CMakeFiles/CppTrain.dir/Screen.cpp.o CMakeFiles/CppTrain.dir/Window_mgr.cpp.o -o CppTrain 
+/usr/bin/c++ -g CMakeFiles/CppTrain.dir/main.cpp.o CMakeFiles/CppTrain.dir/Sales_data.cpp.o CMakeFiles/CppTrain.dir/Screen.cpp.o CMakeFiles/CppTrain.dir/Window_mgr.cpp.o CMakeFiles/CppTrain.dir/Other.cpp.o -o CppTrain 

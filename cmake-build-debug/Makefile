@@ -129,6 +129,30 @@ CppTrain/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/build
 .PHONY : CppTrain/fast
 
+Other.o: Other.cpp.o
+.PHONY : Other.o
+
+# target to build an object file
+Other.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Other.cpp.o
+.PHONY : Other.cpp.o
+
+Other.i: Other.cpp.i
+.PHONY : Other.i
+
+# target to preprocess a source file
+Other.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Other.cpp.i
+.PHONY : Other.cpp.i
+
+Other.s: Other.cpp.s
+.PHONY : Other.s
+
+# target to generate assembly for a file
+Other.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/Other.cpp.s
+.PHONY : Other.cpp.s
+
 Sales_data.o: Sales_data.cpp.o
 .PHONY : Sales_data.o
 
@@ -234,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CppTrain"
+	@echo "... Other.o"
+	@echo "... Other.i"
+	@echo "... Other.s"
 	@echo "... Sales_data.o"
 	@echo "... Sales_data.i"
 	@echo "... Sales_data.s"
