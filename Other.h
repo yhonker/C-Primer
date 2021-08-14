@@ -10,6 +10,7 @@ class Other {
 
 };
 
+//构造函数的初始值有时必不可少
 class ConstRef{
 public:
     ConstRef(int ii);
@@ -31,6 +32,8 @@ ConstRef::ConstRef(int ii) {
 //正确
 ConstRef::ConstRef(int ii):i(ii),ci(ii),ri(i){}
 
+
+//成员初始化顺序
 class X{
     int i;
     int j;
