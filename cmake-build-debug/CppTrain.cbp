@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/honker/CLionProjects/CppTrain/main.cpp">
+			<Option target="CppTrain"/>
+		</Unit>
 		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Account.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
@@ -112,9 +115,6 @@
 			<Option target="CppTrain"/>
 		</Unit>
 		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Window_mgr.h">
-			<Option target="CppTrain"/>
-		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/类/main.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
 		<Unit filename="/home/honker/CLionProjects/CppTrain/CMakeLists.txt">

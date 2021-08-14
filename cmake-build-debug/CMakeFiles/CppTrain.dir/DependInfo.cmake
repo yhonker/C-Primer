@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/honker/CLionProjects/CppTrain/main.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/main.cpp.o"
   "/home/honker/CLionProjects/CppTrain/类/Account.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/类/Account.cpp.o"
   "/home/honker/CLionProjects/CppTrain/类/Other.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/类/Other.cpp.o"
   "/home/honker/CLionProjects/CppTrain/类/Sales_data.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/类/Sales_data.cpp.o"
   "/home/honker/CLionProjects/CppTrain/类/Screen.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/类/Screen.cpp.o"
   "/home/honker/CLionProjects/CppTrain/类/Window_mgr.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.o"
-  "/home/honker/CLionProjects/CppTrain/类/main.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/类/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

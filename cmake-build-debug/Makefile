@@ -129,6 +129,30 @@ CppTrain/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/build
 .PHONY : CppTrain/fast
 
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 类/Account.o: 类/Account.cpp.o
 .PHONY : 类/Account.o
 
@@ -249,30 +273,6 @@ CppTrain/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/Window_mgr.cpp.s
 .PHONY : 类/Window_mgr.cpp.s
 
-类/main.o: 类/main.cpp.o
-.PHONY : 类/main.o
-
-# target to build an object file
-类/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/main.cpp.o
-.PHONY : 类/main.cpp.o
-
-类/main.i: 类/main.cpp.i
-.PHONY : 类/main.i
-
-# target to preprocess a source file
-类/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/main.cpp.i
-.PHONY : 类/main.cpp.i
-
-类/main.s: 类/main.cpp.s
-.PHONY : 类/main.s
-
-# target to generate assembly for a file
-类/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/类/main.cpp.s
-.PHONY : 类/main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -282,6 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CppTrain"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... 类/Account.o"
 	@echo "... 类/Account.i"
 	@echo "... 类/Account.s"
@@ -297,9 +300,6 @@ help:
 	@echo "... 类/Window_mgr.o"
 	@echo "... 类/Window_mgr.i"
 	@echo "... 类/Window_mgr.s"
-	@echo "... 类/main.o"
-	@echo "... 类/main.i"
-	@echo "... 类/main.s"
 .PHONY : help
 
 
