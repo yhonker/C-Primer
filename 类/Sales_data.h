@@ -8,11 +8,6 @@
 using namespace std;
 
 class Sales_data {
-private:
-    string bookNo;
-    unsigned units_sold = 0;
-    double revenue = 0.0;
-    double avg_price() const;
 public:
     Sales_data() = default;
     explicit Sales_data(const string& s):bookNo(s){}//explicit禁止隐式转换
@@ -27,6 +22,22 @@ public:
     //友元
     friend Sales_data& add(const Sales_data& sda, const Sales_data& sdb);
 
+    //显式定义合成拷贝函数
+    /*Sales_data(const Sales_data &orig) = default;*/
+
+    //等价于合成的拷贝构造函数, 不是引用类型会形成循环调用拷贝构造函数
+    Sales_data(const Sales_data &orig);
+
+    //等价于合成拷贝赋值运算符
+    Sales_data &operator=(const Sales_data &rhs);
+
+
+
+private:
+    string bookNo;
+    unsigned units_sold = 0;
+    double revenue = 0.0;
+    double avg_price() const;
 
 };
 
