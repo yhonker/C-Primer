@@ -39,3 +39,15 @@ Sales_data& add(const Sales_data& sda, const Sales_data& sdb){
     return sdc;
 }
 
+Sales_data::Sales_data(const Sales_data &orig):bookNo(orig.bookNo), \
+            units_sold(orig.units_sold), revenue(orig.revenue) {
+
+}
+
+Sales_data &Sales_data::operator=(const Sales_data &rhs) {
+    bookNo = rhs.bookNo;
+    units_sold = rhs.units_sold;
+    revenue = rhs.revenue;
+    return *this;
+}
+
