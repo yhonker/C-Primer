@@ -1,6 +1,11 @@
 #C++ Primer 5th 
 
 <br>
+
+```bash
+参考资源：https://github.com/applenob/Cpp_Primer_Practice
+
+```
 <br>
 
 P253 ~ P276 类
