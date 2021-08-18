@@ -177,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/拷贝控制/HasPtr.cpp.s
 .PHONY : 拷贝控制/HasPtr.cpp.s
 
+拷贝控制/Message.o: 拷贝控制/Message.cpp.o
+
+.PHONY : 拷贝控制/Message.o
+
+# target to build an object file
+拷贝控制/Message.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/拷贝控制/Message.cpp.o
+.PHONY : 拷贝控制/Message.cpp.o
+
+拷贝控制/Message.i: 拷贝控制/Message.cpp.i
+
+.PHONY : 拷贝控制/Message.i
+
+# target to preprocess a source file
+拷贝控制/Message.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/拷贝控制/Message.cpp.i
+.PHONY : 拷贝控制/Message.cpp.i
+
+拷贝控制/Message.s: 拷贝控制/Message.cpp.s
+
+.PHONY : 拷贝控制/Message.s
+
+# target to generate assembly for a file
+拷贝控制/Message.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/拷贝控制/Message.cpp.s
+.PHONY : 拷贝控制/Message.cpp.s
+
 拷贝控制/NoCopy.o: 拷贝控制/NoCopy.cpp.o
 
 .PHONY : 拷贝控制/NoCopy.o
@@ -381,6 +408,9 @@ help:
 	@echo "... 拷贝控制/HasPtr.o"
 	@echo "... 拷贝控制/HasPtr.i"
 	@echo "... 拷贝控制/HasPtr.s"
+	@echo "... 拷贝控制/Message.o"
+	@echo "... 拷贝控制/Message.i"
+	@echo "... 拷贝控制/Message.s"
 	@echo "... 拷贝控制/NoCopy.o"
 	@echo "... 拷贝控制/NoCopy.i"
 	@echo "... 拷贝控制/NoCopy.s"

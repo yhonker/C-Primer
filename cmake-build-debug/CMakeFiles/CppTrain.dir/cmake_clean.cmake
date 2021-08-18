@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppTrain.dir/拷贝控制/HasPtr.cpp.o"
   "CMakeFiles/CppTrain.dir/拷贝控制/Other.cpp.o"
   "CMakeFiles/CppTrain.dir/拷贝控制/NoCopy.cpp.o"
+  "CMakeFiles/CppTrain.dir/拷贝控制/Message.cpp.o"
   "CppTrain.pdb"
   "CppTrain"
 )

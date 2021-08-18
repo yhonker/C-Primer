@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/c/Users/yh/Desktop/C++-Primer/main.cpp" "/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/CMakeFiles/CppTrain.dir/main.cpp.o"
   "/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/HasPtr.cpp" "/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/CMakeFiles/CppTrain.dir/拷贝控制/HasPtr.cpp.o"
+  "/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/Message.cpp" "/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/CMakeFiles/CppTrain.dir/拷贝控制/Message.cpp.o"
   "/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/NoCopy.cpp" "/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/CMakeFiles/CppTrain.dir/拷贝控制/NoCopy.cpp.o"
   "/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/Other.cpp" "/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/CMakeFiles/CppTrain.dir/拷贝控制/Other.cpp.o"
   "/mnt/c/Users/yh/Desktop/C++-Primer/类/Account.cpp" "/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/CMakeFiles/CppTrain.dir/类/Account.cpp.o"

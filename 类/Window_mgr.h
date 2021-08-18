@@ -10,16 +10,20 @@ using namespace std;
 
 class Window_mgr {
 public:
-/*    typedef vector<Screen>::size_type ScreenIndex;*/
+/*    friend class Screen;
+    typedef vector<Screen>::size_type ScreenIndex;*/
     Window_mgr(){}
-/*    void clear(ScreenIndex i);*/
-  /*  ScreenIndex addScreen(const Screen& s);*/
+/*    void clear(ScreenIndex i);
+    ScreenIndex addScreen(const Screen& s);*/
+
+
 
 private:
 /*
     vector<Screen> screens{Screen(24, 80, ' ')}; //提供类内初始值
 */
 };
+
 
 
 

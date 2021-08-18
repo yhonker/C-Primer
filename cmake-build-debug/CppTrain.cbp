@@ -93,6 +93,12 @@
 		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/HasPtr.h">
 			<Option target="CppTrain"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/Message.cpp">
+			<Option target="CppTrain"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/Message.h">
+			<Option target="CppTrain"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/NoCopy.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
