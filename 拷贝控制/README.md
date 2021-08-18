@@ -16,11 +16,31 @@
 ```
 #### 13.4
 ```c++
+//标记处调用了拷贝构造函数
 Point global;
-Point foo_bar(Point arg){
-    Point local = arg, *heap = new Point(global);
+Point foo_bar(Point arg){/* 1 */
+    Point local = arg /* 2 */ , *heap = new Point(global)/* 3 */;
     *heap = local;
-    Point pa[4] = {local, *heap};
-    return *heap;
+    Point pa[4] = {local/* 4 */, *heap/* 5 */};
+    return *heap;/* 6 */
 }
+```
+#### 13.5
+```c++
+class HasPtr{
+public:
+    HasPtr(const std::string &s = std::string()):\
+        ps(new std::string(s), i(0)){ }
+    HasPtr(const HasPtr &rhs);//新增拷贝构造函数
+private:
+    std::string *ps;
+    int i;
+};
+
+HasPtr::HasPtr(const HasPtr &rhs):ps(new std::string(*rhs.ps)), i(rhs.i){ }
+
+```
+#### 13.6
+```c++
+
 ```
