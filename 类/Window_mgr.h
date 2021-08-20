@@ -7,10 +7,11 @@
 #include <bits/stdc++.h>
 #include "Screen.h"
 using namespace std;
-
+class Screen;
 class Window_mgr {
+/*    friend class Screen;*/
 public:
-/*    friend class Screen;
+/*
     typedef vector<Screen>::size_type ScreenIndex;*/
     Window_mgr(){}
 /*    void clear(ScreenIndex i);

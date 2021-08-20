@@ -252,5 +252,159 @@ public:
 ### 13.3
 #### 13.29
 ```c++
+1.实际上是三个不同swap()函数。
+```
+#### 13.30
+```c++
+void swap(HasPtr2 &lhs, HasPtr2& rhs){
+    using std::swap;
+    swap(lhs.ps, rhs.ps);
+    swap(lhs.i, rhs.i);
+}    
+```
+#### 13.31
+```c++
 
+```
+#### 13.32
+```c++
+1.不会。类值的版本利用swap交换指针不用进行内存分配，因此得到了性能上的提升。
+类指针的版本本来就不用进行内存分配，所以不会得到性能提升。
+```
+### 13.4
+#### 13.33
+```c++
+1.Message的save和remove会更新传入的Folder对象。
+```
+#### 13.34
+```c++
+class Message{
+    friend class Folder;
+    friend void swap(Message &lhs, Message &rhs);
+public:
+    explicit Message(const string &s = ""):contents(str) { }
+    Message(const Message &rhs);
+    Message &operator=(const Message &rhs);
+    ~Message();
+    void save(Folder &f);
+    void move(Folder &f);
+
+private:
+    string contents;
+    set<Folder*> folders;
+    void add_to_Folders(const Message &m);
+    void remove_from_Folder();
+    void addFlr(Folder *f){
+        folders.insert(f);
+    }
+    void removeFlr(Folder *f){
+        folders.erase(f);
+    }
+};
+
+void Message::save(Folder &f){
+    f.insert(this);
+    f.addMsg(this);
+}
+
+void Message::remove(Folder &f){
+    f.erase(&f);
+    f.remMsg(this);
+}
+
+void Message::add_to_Folders(const Message &m){
+    for(auto it:m.folders){
+        it->addMsg(this);
+    }
+}
+
+Message::Message(const Message &rhs):contents(rhs.contents),\
+    folders(rhs.folders){
+    add_to_Folders(rhs);
+}
+void Message::remove_from_Folders(){
+    for(auto it:folders){
+        it->remMsg(this);
+    }
+}
+Message &Message::operator=(const Message &rhs){
+    remove_from_Folders();
+    contents = rhs.contents;
+    folders = rhs.folders;
+    add_to_Folders(rhs);
+    return *this;
+}
+
+Message::~Message(){
+    remove_from_Folders();
+}
+
+void swap(Message &lhs, Message &rhs){
+    using std::swap;
+    for(auto f:lhs.folders)
+        f->remMsg(&lhs);
+    for(auto f:rhs.folders)
+        f->remMsg(&rhs);
+    swap(lhs.folders, rhs.folders);
+    swap(lhs.contents, rhs.contents);
+    for(auto f:lhs.folders)
+        f->addMsg(&lhs);
+    for(auto f:rhs.folders)
+        f->addMsg(&rhs);
+}
+```
+#### 13.35
+```c++
+1.Message无法在Folder中得到添加。
+```
+#### 13.36
+```c++
+class Folder{
+    friend class Message;
+    friend void swap(Folder &lhs, Folder &rhs);
+public:
+    Folder(){}
+    Folder(const Folder &rhs):messages(rhs.messages){
+        add_to_Messages(rhs);
+    }
+    Folder &operator=(const Folder &rhs){
+        remove_from_Messages();
+        messages = rhs.messages;
+        add_to_Messages(rhs);
+        return *this;
+    }
+    ~Folder(){
+        remove_from_Messages();
+    }
+
+    
+private:
+    set<Message> messages;
+    void addMsg(Message *m){
+        messages.insert(m);
+    }
+    void remMsg(Message *m){
+        messages.erase(m);
+    }//给Message对象调用,不能主动添加Message
+    void add_to_Messages(const Folder &f){
+        for(auto it:f.messages)
+            it->addFlr(this);
+    }
+    remove_from_Messages(){
+        for(auto it:f.messages)
+            it->remFlr(this);
+    }
+};
+
+viod swap(Folder &lhs, Folder &&rhs){
+    for(auto m:lhs.messages)
+        m->remFlr(&lhs);
+    for(auto m:rhs.messages)
+        m->remFlr(&rhs);
+    swap(lhs.messages, rhs.messages);
+    for(auto m:lhs.messages)
+        m->addFlr(&lhs);
+    for(auto m:rhs.messages)
+        m->addFlr(&rhs);
+}
 ```

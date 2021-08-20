@@ -26,12 +26,27 @@ public:
     //对ps指向的string，每个HasPtr对象都有自己的拷贝
     HasPtr2(const HasPtr2 &p):ps(new string(*p.ps)), i(p.i){}
     HasPtr2 &operator=(const HasPtr2 &rhs);
+    //swap版本拷贝赋值运算符
+    /*
+     HasPtr& operator=(HasPtr rhs)={
+        swap(*this, rhs);
+        return *this;
+     }
+     */
     ~HasPtr2(){delete ps;}
+    friend void swap(HasPtr2 &lhs, HasPtr2 &rhs);
 
 private:
     string *ps;
     int i;
 };
+inline
+void swap(HasPtr2 &lhs, HasPtr2& rhs){
+    using std::swap;
+    swap(lhs.ps, rhs.ps);
+    swap(lhs.i, rhs.i);
+}
+
 
 //指针行为版本--定义一个使用引用计数的类
 class HasPtr3{
