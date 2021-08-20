@@ -278,6 +278,8 @@ void swap(HasPtr2 &lhs, HasPtr2& rhs){
 ```
 #### 13.34
 ```c++
+class Folder;
+
 class Message{
     friend class Folder;
     friend void swap(Message &lhs, Message &rhs);
@@ -287,23 +289,20 @@ public:
     Message &operator=(const Message &rhs);
     ~Message();
     void save(Folder &f);
-    void move(Folder &f);
+    void remove(Folder &f);
 
 private:
     string contents;
     set<Folder*> folders;
     void add_to_Folders(const Message &m);
     void remove_from_Folder();
-    void addFlr(Folder *f){
-        folders.insert(f);
-    }
-    void removeFlr(Folder *f){
-        folders.erase(f);
-    }
+    void addFlr(Folder *f){ folders.insert(f);}
+    void removeFlr(Folder *f){ folders.erase(f);}
+    
 };
 
 void Message::save(Folder &f){
-    f.insert(this);
+    f.insert(&f);
     f.addMsg(this);
 }
 
@@ -341,16 +340,12 @@ Message::~Message(){
 
 void swap(Message &lhs, Message &rhs){
     using std::swap;
-    for(auto f:lhs.folders)
-        f->remMsg(&lhs);
-    for(auto f:rhs.folders)
-        f->remMsg(&rhs);
+    lhs.remove_from_Folders();
+    rhs.remove_from_Folders();
     swap(lhs.folders, rhs.folders);
     swap(lhs.contents, rhs.contents);
-    for(auto f:lhs.folders)
-        f->addMsg(&lhs);
-    for(auto f:rhs.folders)
-        f->addMsg(&rhs);
+    lhs.add_to_Folders(lhs);
+    rhs.add_to_Folders(rhs);
 }
 ```
 #### 13.35
@@ -362,49 +357,57 @@ void swap(Message &lhs, Message &rhs){
 class Folder{
     friend class Message;
     friend void swap(Folder &lhs, Folder &rhs);
+    
 public:
-    Folder(){}
-    Folder(const Folder &rhs):messages(rhs.messages){
-        add_to_Messages(rhs);
-    }
-    Folder &operator=(const Folder &rhs){
-        remove_from_Messages();
-        messages = rhs.messages;
-        add_to_Messages(rhs);
-        return *this;
-    }
-    ~Folder(){
-        remove_from_Messages();
-    }
-
+    Folder() = default;
+    Folder(const Folder &rhs):messages(rhs.messages){ add_to_Messages(rhs);}
+    Folder &operator=(const Folder &rhs);
+    ~Folder(){ remove_from_Messages();}
     
 private:
-    set<Message> messages;
-    void addMsg(Message *m){
-        messages.insert(m);
-    }
-    void remMsg(Message *m){
-        messages.erase(m);
-    }//给Message对象调用,不能主动添加Message
-    void add_to_Messages(const Folder &f){
-        for(auto it:f.messages)
-            it->addFlr(this);
-    }
-    remove_from_Messages(){
-        for(auto it:f.messages)
-            it->remFlr(this);
-    }
-};
+    set<Message*> messages;
+    void addMsg(Message *m){ messages.insert(m);}
+    void remMsg(Message *m){ messages.erase(m);}//给Message对象调用,不能主动添加Message
+    void add_to_Messages(const Folder &f);
+    void remove_from_Messages();
+
+}    
+    
+void Folder::add_to_Messages(const Folder &f){
+    for(auto it:f.messages)
+    it->addFlr(this);
+}
+
+void Folder::remove_from_Messages(){
+    for(auto it:f.messages);
+    it->remFlr(this);
+}
+
+Folder &Folder::operator=(const Folder &rhs){
+    remove_from_Messages();
+    messages = rhs.messages;
+    add_to_Messages(rhs);
+    return *this;
+}
 
 viod swap(Folder &lhs, Folder &&rhs){
-    for(auto m:lhs.messages)
-        m->remFlr(&lhs);
-    for(auto m:rhs.messages)
-        m->remFlr(&rhs);
+    lhs.remove_from_Messages();
+    rhs.remove_from_Messages();
     swap(lhs.messages, rhs.messages);
-    for(auto m:lhs.messages)
-        m->addFlr(&lhs);
-    for(auto m:rhs.messages)
-        m->addFlr(&rhs);
+    lhs.add_to_Message(lhs);
+    rhs.add_to_Message(rhs);
 }
+```
+#### 13.37
+```c++
+-->13.34
+```
+#### 13.38
+```c++
+1.Message对象不需要开辟新的堆空间，即不需要动态分配空间。
+```
+### 13.5
+#### 13.39
+```c++
+
 ```
