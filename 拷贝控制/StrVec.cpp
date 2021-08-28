@@ -4,6 +4,11 @@
 
 #include "StrVec.h"
 
+StrVec::StrVec(StrVec &&s) noexcept :elements(s.elements),first_free(s.first_free),cap(s.cap){
+    s.elements = s.first_free = s.cap = nullptr;
+}
+
+
 void StrVec::push_back(const string &s) {
     chk_n_alloc();
     alloc.construct(first_free++, s);
@@ -35,6 +40,17 @@ StrVec &StrVec::operator=(const StrVec &rhs) {
     free();
     elements = data.first;
     first_free = cap = data.second;
+    return *this;
+}
+
+StrVec &StrVec::operator=(StrVec &&rhs) noexcept{
+    if(this != &rhs){
+        free();
+        elements = rhs.elements;
+        first_free = rhs.first_free;
+        cap = rhs.cap;
+        rhs.elements = rhs.first_free = rhs.cap = nullptr;
+    }
     return *this;
 }
 

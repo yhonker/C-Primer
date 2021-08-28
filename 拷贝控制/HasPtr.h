@@ -26,9 +26,10 @@ public:
     //对ps指向的string，每个HasPtr对象都有自己的拷贝
     HasPtr2(const HasPtr2 &p):ps(new string(*p.ps)), i(p.i){}
     HasPtr2 &operator=(const HasPtr2 &rhs);
-    //swap版本拷贝赋值运算符
+    HasPtr2(HasPtr2 &&p) noexcept:ps(p.ps),i(p.i){p.ps = 0;}
+    //swap版本拷贝赋值运算符,
     /*
-     HasPtr& operator=(HasPtr rhs)={
+     HasPtr& operator=(HasPtr rhs)={//赋值运算符既是移动赋值运算符，也是拷贝赋值运算符
         swap(*this, rhs);
         return *this;
      }

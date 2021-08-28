@@ -9,8 +9,10 @@ using namespace std;
 class StrVec {
 public:
     StrVec():elements(nullptr),first_free(nullptr),cap(nullptr){ }
+    StrVec(StrVec&&) noexcept;//移动构造函数
     StrVec(const StrVec&);
     StrVec &operator=(const StrVec&);
+    StrVec &operator=(StrVec&&) noexcept;//移动赋值运算符
     ~StrVec();
     void push_back(const string&);
     size_t size() const { return first_free - elements;}
