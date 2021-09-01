@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CppTrain.dir/main.cpp.o"
+  "CMakeFiles/CppTrain.dir/拷贝控制/Folder.cpp.o"
   "CMakeFiles/CppTrain.dir/拷贝控制/HasPtr.cpp.o"
   "CMakeFiles/CppTrain.dir/拷贝控制/Message.cpp.o"
   "CMakeFiles/CppTrain.dir/拷贝控制/NoCopy.cpp.o"

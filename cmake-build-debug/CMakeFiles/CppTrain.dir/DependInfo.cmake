@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/honker/CLionProjects/CppTrain/main.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/main.cpp.o"
+  "/home/honker/CLionProjects/CppTrain/拷贝控制/Folder.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/拷贝控制/Folder.cpp.o"
   "/home/honker/CLionProjects/CppTrain/拷贝控制/HasPtr.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/拷贝控制/HasPtr.cpp.o"
   "/home/honker/CLionProjects/CppTrain/拷贝控制/Message.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/拷贝控制/Message.cpp.o"
   "/home/honker/CLionProjects/CppTrain/拷贝控制/NoCopy.cpp" "/home/honker/CLionProjects/CppTrain/cmake-build-debug/CMakeFiles/CppTrain.dir/拷贝控制/NoCopy.cpp.o"

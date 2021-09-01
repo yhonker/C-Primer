@@ -284,7 +284,7 @@ class Message{
     friend class Folder;
     friend void swap(Message &lhs, Message &rhs);
 public:
-    explicit Message(const string &s = ""):contents(str) { }
+    explicit Message(const string &s = ""):contents(s) { }
     Message(const Message &rhs);
     Message &operator=(const Message &rhs);
     ~Message();

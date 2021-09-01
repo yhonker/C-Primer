@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+拷贝控制/Folder.o: 拷贝控制/Folder.cpp.o
+.PHONY : 拷贝控制/Folder.o
+
+# target to build an object file
+拷贝控制/Folder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/拷贝控制/Folder.cpp.o
+.PHONY : 拷贝控制/Folder.cpp.o
+
+拷贝控制/Folder.i: 拷贝控制/Folder.cpp.i
+.PHONY : 拷贝控制/Folder.i
+
+# target to preprocess a source file
+拷贝控制/Folder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/拷贝控制/Folder.cpp.i
+.PHONY : 拷贝控制/Folder.cpp.i
+
+拷贝控制/Folder.s: 拷贝控制/Folder.cpp.s
+.PHONY : 拷贝控制/Folder.s
+
+# target to generate assembly for a file
+拷贝控制/Folder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppTrain.dir/build.make CMakeFiles/CppTrain.dir/拷贝控制/Folder.cpp.s
+.PHONY : 拷贝控制/Folder.cpp.s
+
 拷贝控制/HasPtr.o: 拷贝控制/HasPtr.cpp.o
 .PHONY : 拷贝控制/HasPtr.o
 
@@ -405,6 +429,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... 拷贝控制/Folder.o"
+	@echo "... 拷贝控制/Folder.i"
+	@echo "... 拷贝控制/Folder.s"
 	@echo "... 拷贝控制/HasPtr.o"
 	@echo "... 拷贝控制/HasPtr.i"
 	@echo "... 拷贝控制/HasPtr.s"

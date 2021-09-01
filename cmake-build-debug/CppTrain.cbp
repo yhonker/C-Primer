@@ -87,6 +87,12 @@
 		<Unit filename="/home/honker/CLionProjects/CppTrain/main.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
+		<Unit filename="/home/honker/CLionProjects/CppTrain/拷贝控制/Folder.cpp">
+			<Option target="CppTrain"/>
+		</Unit>
+		<Unit filename="/home/honker/CLionProjects/CppTrain/拷贝控制/Folder.h">
+			<Option target="CppTrain"/>
+		</Unit>
 		<Unit filename="/home/honker/CLionProjects/CppTrain/拷贝控制/HasPtr.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
