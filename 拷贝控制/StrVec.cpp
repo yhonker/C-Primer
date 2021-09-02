@@ -56,6 +56,7 @@ StrVec &StrVec::operator=(StrVec &&rhs) noexcept{
 
 void StrVec::reallocate() {
     auto newcapacity = size() ? 2*size() : 1;
+    //拷贝方式
     auto newdata = alloc.allocate(newcapacity);
     auto dest = newdata;
     auto elem = elements;
@@ -65,4 +66,45 @@ void StrVec::reallocate() {
     elements = newdata;
     first_free = dest;
     cap = elements + newcapacity;
+    /*移动方式
+     auto first = alloc.allocate(newcapacity);
+     //移动元素
+     auto last = uninitialized_copy(make_move_iterator(begin()), make_iterator(end()), first);
+     free();
+     elements = first;
+     first_free = last;
+     cap = elements + newcapacity;
+     */
+}
+
+void StrVec::reserve(size_t n) {
+    if(n<=capacity()) return;
+    auto first = alloc.allocate(n);
+    auto last = uninitialized_copy(make_move_iterator(begin()), make_move_iterator(end()), first);
+    free();
+    elements = first;
+    first_free = last;
+    cap = elements + n;
+}
+
+void StrVec::resize(size_t count) {
+    if(count > size()){
+        if(count > capacity()) reserve(count * 2);
+        for(size_t i = size(); i != count; ++i)
+            alloc.construct(first_free++, string(" "));
+    } else if(count < size()){
+        while(first_free != elements + count)
+            alloc.destroy(--first_free);
+    }
+}
+
+StrVec::StrVec(initializer_list<string> il) {
+    range_initialize(il.begin(), il.end());
+}
+
+void StrVec::range_initialize(const std::string *first, const std::string *last)
+{
+    auto newdata = alloc_n_copy(first, last);
+    elements = newdata.first;
+    first_free = cap = newdata.second;
 }

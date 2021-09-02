@@ -409,22 +409,74 @@ viod swap(Folder &lhs, Folder &&rhs){
 ### 13.5
 #### 13.39
 ```c++
+void StrVec::reserve(size_t n) {
+    if(n<=capacity()) return;
+    auto first = alloc.allocate(n);
+    auto last = uninitialized_copy(make_move_iterator(begin()), make_move_iterator(end()), first);
+    free();
+    elements = first;
+    first_free = last;
+    cap = elements + n;
+}
 
+void StrVec::resize(size_t count) {
+    if(count > size()){
+        if(count > capacity()) reserve(count * 2);
+        for(size_t i = size(); i != count; ++i)
+            alloc.construct(first_free++, string(" "));
+    } else if(count < size()){
+        while(first_free != elements + count)
+            alloc.destroy(--first_free);
+    }
+}
 ```
 #### 13.40
 ```c++
+StrVec(initializer_list<string> il);
+void range_initialize(const std::string *first, const std::string *last);
 
+StrVec::StrVec(initializer_list<string> il) {
+range_initialize(il.begin(), il.end());
+}
+
+void StrVec::range_initialize(const std::string *first, const std::string *last)
+{
+auto newdata = alloc_n_copy(first, last);
+elements = newdata.first;
+first_free = cap = newdata.second;
+}
 ```
 #### 13.41
 ```c++
+1.因为first_free指向第一个空位置,后置递增会使第一个空位置被忽略。
+```
+#### 13.42
+```c++
 
 ```
-#### 13.44
+#### 13.43
 ```c++
 
 ```
 ### 13.6.1
 #### 13.45
 ```c++
+1.常规引用被定义为左值引用。
+2.绑定到右值的引用被称为右值引用。
+```
+#### 13.46
+```c++
+1.右值
+2.左值
+3.左值
+4.右值
+```
+#### 13.47
+```c++
 
 ```
+#### 13.48
+```c++
+
+```
+

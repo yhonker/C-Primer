@@ -9,7 +9,14 @@ using namespace std;
 class StrVec {
 public:
     StrVec():elements(nullptr),first_free(nullptr),cap(nullptr){ }
-    StrVec(StrVec&&) noexcept;//移动构造函数
+
+    //接收initializer_list<string>的构造函数
+    StrVec(initializer_list<string> il);
+    void range_initialize(const std::string *first, const std::string *last);
+
+    //移动构造函数
+    StrVec(StrVec&&) noexcept;
+
     StrVec(const StrVec&);
     StrVec &operator=(const StrVec&);
     StrVec &operator=(StrVec&&) noexcept;//移动赋值运算符
@@ -19,6 +26,9 @@ public:
     size_t capacity() const{ return cap - elements;}
     string *begin() const {return elements;}
     string *end() const {return first_free;}
+    void reserve(size_t );
+    void resize(size_t count);
+
 private:
     static allocator<string> alloc;//
     void chk_n_alloc(){if(size() == capacity()) reallocate();}
