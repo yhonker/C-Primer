@@ -8,152 +8,152 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/honker/CLionProjects/CppTrain/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/honker/CLionProjects/CppTrain/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/honker/CLionProjects/CppTrain/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CppTrain">
-				<Option output="/home/honker/CLionProjects/CppTrain/cmake-build-debug/CppTrain" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/honker/CLionProjects/CppTrain/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/CppTrain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppTrain"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppTrain"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CppTrain/fast">
-				<Option output="/home/honker/CLionProjects/CppTrain/cmake-build-debug/CppTrain" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/honker/CLionProjects/CppTrain/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/CppTrain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppTrain/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/honker/CLionProjects/CppTrain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppTrain/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/yh/Desktop/C++-Primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/main.cpp">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/main.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/拷贝控制/Folder.cpp">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/Folder.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/拷贝控制/Folder.h">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/Folder.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/拷贝控制/HasPtr.cpp">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/HasPtr.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/拷贝控制/HasPtr.h">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/HasPtr.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/拷贝控制/Message.cpp">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/Message.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/拷贝控制/Message.h">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/Message.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/拷贝控制/NoCopy.cpp">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/NoCopy.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/拷贝控制/NoCopy.h">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/NoCopy.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/拷贝控制/Other.cpp">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/Other.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/拷贝控制/Other.h">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/Other.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/拷贝控制/StrVec.cpp">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/StrVec.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/拷贝控制/StrVec.h">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/拷贝控制/StrVec.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Account.cpp">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/类/Account.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Account.h">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/类/Account.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Other.cpp">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/类/Other.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Other.h">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/类/Other.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Sales_data.cpp">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/类/Sales_data.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Sales_data.h">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/类/Sales_data.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Screen.cpp">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/类/Screen.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Screen.h">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/类/Screen.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Window_mgr.cpp">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/类/Window_mgr.cpp">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/类/Window_mgr.h">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/类/Window_mgr.h">
 			<Option target="CppTrain"/>
 		</Unit>
-		<Unit filename="/home/honker/CLionProjects/CppTrain/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/yh/Desktop/C++-Primer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -25,6 +25,7 @@ void StrVec::free() {
             alloc.destroy(--p);
         alloc.deallocate(elements, cap - elements);
     }
+    for_each(first_free, elements-1,[](string::iterator it){alloc.destroy(it)})
 }
 
 StrVec::StrVec(const StrVec &s) {
