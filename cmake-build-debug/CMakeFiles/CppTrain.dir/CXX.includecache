@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/yh/Desktop/workplace/C++-Primer/ Program/Sales_data.h
+bits/stdc++.h
+-
+
+/mnt/c/Users/yh/Desktop/workplace/C++-Primer/main.cpp
+iostream
+-
+ Program/Sales_data.h
+/mnt/c/Users/yh/Desktop/workplace/C++-Primer/ Program/Sales_data.h
+
