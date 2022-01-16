@@ -60,7 +60,7 @@ Sales_data operator+(const Sales_data& a, const Sales_data& b){
 }
 
 ostream& operator<<(ostream& out, const Sales_data& a){
-    out<<a.bookNo<<" "<<a.units_sold<<" "<<a.revenue<<endl;
+    out<<a.bookNo<<" "<<a.units_sold<<" "<<a.revenue;
     return out;
 }
 

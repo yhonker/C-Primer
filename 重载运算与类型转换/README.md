@@ -31,7 +31,7 @@
     }
     
     ostream& operator<<(ostream& out, const Sales_data& a){
-        out<<a.bookNo<<" "<<a.units_sold<<" "<<a.revenue<<endl;
+        out<<a.bookNo<<" "<<a.units_sold<<" "<<a.revenue;
         return out;
     }
 
