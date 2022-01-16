@@ -31,7 +31,13 @@ public:
     //等价于合成拷贝赋值运算符
     Sales_data &operator=(const Sales_data &rhs);
 
-
+    //重载运算符与类型转换
+    //重载+
+    friend Sales_data operator+(const Sales_data& a, const Sales_data& b);
+    //重载<<
+    friend ostream& operator<<(ostream& out, const Sales_data& a);
+    //重载>>
+    friend istream& operator>>(istream& in, Sales_data& a);
 
 private:
     string bookNo;
@@ -47,6 +53,13 @@ Sales_data& add(const Sales_data& sda, const Sales_data& sdb);
 /*ostream &print(ostream&, const Sales_data&);
 
 istream &read(istream&, Sales_data&);*/
+
+
+Sales_data operator+(const Sales_data& a, const Sales_data& b);
+
+ostream& operator<<(ostream& out, const Sales_data& a);
+
+istream& operator>>(istream& in, Sales_data& a);
 
 
 

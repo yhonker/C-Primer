@@ -2,7 +2,7 @@
 // Created by honker on 2021/8/10.
 //
 
-#include "../类/Sales_data.h"
+#include "Sales_data.h"
 
 
 
@@ -51,3 +51,21 @@ Sales_data &Sales_data::operator=(const Sales_data &rhs) {
     return *this;
 }
 
+Sales_data operator+(const Sales_data& a, const Sales_data& b){
+    Sales_data sum;
+    sum = a;
+    sum.units_sold += b.units_sold;
+    sum.revenue += b.revenue;
+    return sum;
+}
+
+ostream& operator<<(ostream& out, const Sales_data& a){
+    out<<a.bookNo<<" "<<a.units_sold<<" "<<a.revenue<<endl;
+    return out;
+}
+
+istream& operator>>(istream& in, Sales_data& a){
+    cout<<"bookNo：";
+    in>>a.bookNo;
+    return in;
+}
